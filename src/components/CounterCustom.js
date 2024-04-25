@@ -16,7 +16,7 @@ const CounterCustom = ({ setParentCostumValueState }) => {
     >
       <TextInput
         value={costumValue}
-        style={{ borderWidth: 1, width: "80%", height: 40 }}
+        style={{ borderWidth: 1, width: "80%", height: 80 }}
         onChangeText={(text) => applychanges(text)}
       />
     </View>
