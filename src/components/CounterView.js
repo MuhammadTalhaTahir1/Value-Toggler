@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
+import tailwind from "twrnc";
 
 const CounterView = ({counterValue}) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>{counterValue}</Text>
+      <Text style={tailwind`text-xl text-white`}>{counterValue}</Text>
     </View>
   );
 };
@@ -16,6 +17,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   text:{
-    fontSize:30
+    fontSize:30,
+    color:'white'
   }
 });
