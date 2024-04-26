@@ -5,7 +5,7 @@ import tailwind from "twrnc";
 const CounterView = ({counterValue}) => {
   return (
     <View style={styles.container}>
-      <Text style={tailwind`text-xl text-white`}>{counterValue}</Text>
+      <Text style={tailwind`text-xl text-black`}>{counterValue}</Text>
     </View>
   );
 };
