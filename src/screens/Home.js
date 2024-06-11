@@ -7,6 +7,9 @@ const Home = () => {
     console.log(data)
   return (
     <View>
+      <Text>
+        Rleasing App
+      </Text>
       <Text>Home</Text>
     </View>
   )
